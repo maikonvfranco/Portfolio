@@ -1,7 +1,7 @@
 import Card from "./Card";
-import pdvImg from "../assets/PDV.jpg";
-import imobImg from "../assets/imobiliaria.png";
-import landingImg from "../assets/landing.png";
+import pdvImg from "../assets/PDV.webp";
+import imobImg from "../assets/imobiliaria.webp";
+import landingImg from "../assets/landing.webp";
 
 const projetos = [
   {
