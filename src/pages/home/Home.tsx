@@ -1,7 +1,7 @@
 import NavBar from "../../components/NavBar.tsx";
 import Footer from "../../components/Footer.tsx";
 import Hero from "../../components/Hero.tsx";
-import About from "../../components/About.tsx";
+import Stack from "../../components/Stack.tsx";
 import Projects from "../../components/Projects.tsx";
 import Contact from "../../components/Contact.tsx";
 
@@ -13,7 +13,7 @@ function Home() {
 
         <Hero />
 
-        <About />
+        <Stack />
 
         <Projects />
 
