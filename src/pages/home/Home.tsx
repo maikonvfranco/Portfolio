@@ -1,28 +1,28 @@
-import NavBar from '../../components/NavBar.tsx'
-import Footer from '../../components/Footer.tsx'
-import Hero from '../../components/Hero.tsx'
-
+import NavBar from "../../components/NavBar.tsx";
+import Footer from "../../components/Footer.tsx";
+import Hero from "../../components/Hero.tsx";
+import About from "../../components/About.tsx";
+import Projects from "../../components/Projects.tsx";
+import Contact from "../../components/Contact.tsx";
 
 function Home() {
-
-
   return (
     <>
-      <div className="flex justify-center min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950">
-
+      <div className="bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950">
         <NavBar />
 
-        <div className="flex flex-col justify-between w-5/7">
+        <Hero />
 
-          <Hero />
+        <About />
 
-          <Footer />
+        <Projects />
 
-        </div>
+        <Contact />
+
+        <Footer />
       </div>
-
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
