@@ -64,7 +64,10 @@ const grupos: { titulo: string; techs: Tech[] }[] = [
 
 function Stack() {
   return (
-    <div className="mx-auto flex max-w-4xl flex-col items-center gap-8 px-6">
+    <div
+      id="stack"
+      className="mx-auto flex max-w-4xl flex-col items-center gap-8 px-6"
+    >
       {grupos.map((grupo) => (
         <div key={grupo.titulo} className="w-full text-center">
           <h3 className="mb-3 text-sm font-semibold tracking-wider text-slate-400 uppercase">

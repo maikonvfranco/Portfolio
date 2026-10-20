@@ -3,7 +3,10 @@ import foto from "../assets/fotoprofissional.webp";
 
 function Hero() {
   return (
-    <section className="relative isolate flex flex-col items-center justify-center gap-10 px-6 pt-20 pb-20 md:flex-row md:gap-16 md:px-16">
+    <section
+      id="hero"
+      className="relative isolate flex flex-col items-center justify-center gap-10 px-6 pt-20 pb-20 md:flex-row md:gap-16 md:px-16"
+    >
       <div className="absolute top-1/3 left-1/4 -z-10 h-72 w-72 rounded-full bg-blue-500/20 blur-3xl" />
 
       <img
@@ -50,6 +53,7 @@ function Hero() {
           </a>
           <a
             href="https://github.com/maikonvfranco"
+            target="_blank"
             className="rounded-lg border border-white/20 px-5 py-2.5 text-slate-200 transition-colors duration-300 hover:bg-white/10"
           >
             GitHub
