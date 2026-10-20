@@ -1,6 +1,6 @@
-import NavBar from '../components/NavBar.tsx'
-import Footer from '../components/Footer.tsx'
-import Hero from '../components/Hero.tsx'
+import NavBar from '../../components/NavBar.tsx'
+import Footer from '../../components/Footer.tsx'
+import Hero from '../../components/Hero.tsx'
 
 
 function Home() {
@@ -8,14 +8,17 @@ function Home() {
 
   return (
     <>
-      <div className="flex flex-col min-h-screen justify-between">
-        
+      <div className="flex justify-center min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950">
+
         <NavBar />
 
-        <Hero />
+        <div className="flex flex-col justify-between w-5/7">
 
-        <Footer />
+          <Hero />
 
+          <Footer />
+
+        </div>
       </div>
 
     </>
