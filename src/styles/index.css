@@ -72,3 +72,8 @@ body {
   flex-direction: column;
   cursor: default;
 }
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 #020617;
+}
