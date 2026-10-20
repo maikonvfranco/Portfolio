@@ -54,6 +54,12 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 /* Reset básico e centralização */
 body {
   margin: 0;
