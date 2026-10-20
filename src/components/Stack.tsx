@@ -11,10 +11,14 @@ import {
   SiGit,
   SiGithub,
   SiVercel,
-  SiFigma,
   SiInsomnia,
   SiPostman,
+  SiFigma,
 } from "react-icons/si";
+
+import { FiImage, FiFilm } from "react-icons/fi";
+
+import { FiCpu } from "react-icons/fi";
 
 type Tech = { name: string; icon: IconType; color: string };
 
@@ -41,11 +45,19 @@ const grupos: { titulo: string; techs: Tech[] }[] = [
     titulo: "Ferramentas",
     techs: [
       { name: "Git", icon: SiGit, color: "#F05032" },
-      { name: "GitHub", icon: SiGithub, color: "#181717" },
+      { name: "GitHub", icon: SiGithub, color: "#FFFFFF" },
       { name: "Vercel", icon: SiVercel, color: "#FFFFFF" },
       { name: "Insomnia", icon: SiInsomnia, color: "#58A6FF" },
       { name: "Postman", icon: SiPostman, color: "#FF6C37" },
+    ],
+  },
+  {
+    titulo: "Extras",
+    techs: [
       { name: "Figma", icon: SiFigma, color: "#F24E1E" },
+      { name: "Premiere Pro", icon: FiFilm, color: "#9999FF" },
+      { name: "Photoshop", icon: FiImage, color: "#31A8FF" },
+      { name: "Hardware", icon: FiCpu, color: "#6B7280" },
     ],
   },
 ];

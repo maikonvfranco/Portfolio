@@ -40,11 +40,13 @@ function Projects() {
   return (
     <section id="projetos" className="relative scroll-mt-16 px-6 py-20">
       <div className="mx-auto max-w-6xl">
-        <h2 className="mb-10 text-center text-3xl font-bold text-blue-400">
-          Projetos
-        </h2>
+        <div className="relative isolate mb-10 text-center">
+          <div className="absolute top-1/2 left-1/2 -z-10 h-15 w-48 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/40 blur-3xl" />
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+          <h2 className="text-3xl font-bold text-blue-400">Destaques</h2>
+        </div>
+
+        <div className="grid gap-6 sm:grid-cols-2">
           {projetos.map((p) => (
             <Card key={p.title} {...p} />
           ))}
